@@ -50,19 +50,14 @@ body{
     color: white;
   }
 
-/* Header */
-header{
-    text-align: center;
-    background-color: lightblue;
-}
-
 /* Main content */
-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: lightgrey;
-    flex: auto;
+.backgnd{
+    width: 100%;
+    min-height: 90vh;
+    background-image: url(../Background.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
 /* Footer */
