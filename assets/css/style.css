@@ -59,8 +59,8 @@ header{
 /* Main content */
 main{
     display: flex;
-    text-align: center;
-    text-justify: center;
+    align-items: center;
+    justify-content: center;
     background-color: lightgrey;
     flex: auto;
 }
