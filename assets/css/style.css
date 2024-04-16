@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
+/* Make body be viewed in the entire screen*/
+body{
+    min-height: 100vh;
+    display: flex;
 
-
+/* flex-direction makes it so everything goes on top of one another*/
+    flex-direction:column;
+}
 /* Header */
 header{
     text-align: center;
@@ -17,6 +23,7 @@ header{
 main{
     text-align: left;
     background-color: lightgrey;
+    flex: auto;
 }
 
 /* Footer */
