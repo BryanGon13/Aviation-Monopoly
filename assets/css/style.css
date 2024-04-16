@@ -33,14 +33,17 @@ body{
     border-bottom: 3px solid transparent;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
-    border-bottom: 3px white;
+    border-bottom: 3px solid white;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
-    border-bottom: 3px white;
+    border-bottom: 3px solid white;
+  }
+
+  /* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+    float: right;;
     color: white;
   }
 
