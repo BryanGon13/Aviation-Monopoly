@@ -9,7 +9,6 @@ body {
 
 /* flex-direction makes it so everything goes on top of one another*/
     flex-direction:column;
-    padding: 20px;
     font-family: 'Noto Sans';
     font-size: 14px;
 }
@@ -51,6 +50,7 @@ body {
 .title{
     text-align: center;
     font-size: x-large;
+    /*Font color for background of text: rgb(240, 255, 255, .7)*/
 }
 /*Image on homepage*/
 .homeimg{
@@ -58,13 +58,27 @@ body {
     height: 80vh;
     background-image: url(/assets/images/bao-menglong--FhoJYnw-cg-unsplash.jpg);
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     padding: 0px; 
     overflow: hidden;
     background-repeat: no-repeat;
 }
 
-/*Milestones*/
+/*Milestones title*/
+.milestonetitle{
+    border-bottom:1px solid grey;
+    text-align:left;
+    padding: 30px 30px;
+    padding-bottom: 0px;
+}
+
+/*Milestones checkpoints*/
+.checkpoint{
+    padding: 5px 60px;
+    width: 90%;
+    text-align: justify;
+}
+
 
 /* Footer */
 footer{
