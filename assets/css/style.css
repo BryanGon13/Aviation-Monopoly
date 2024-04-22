@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto";
-  font-size: 14px;
+  font-size: 15px;
 }
 /* Navigation Bar*/
 .topnav {
@@ -79,14 +79,11 @@ body {
 /*Milestones Section*/
 .milestonetitle {
   text-align: center;
-  font-size: clamp(12px, 4vw, 20px); /*Makes text responsive*/
+  line-height: 25px;
   padding: 60px 30px;
   padding-bottom: 15px;
 }
-hr {
-  width: 90%;
-  display: inline-block;
-}
+
 /*Milestones checkpoints*/
 .checkpoint {
   width: 100%;
@@ -101,7 +98,9 @@ hr {
 }
 /*ZigZag format - Follow template on W3Schools*/
 .container {
-  padding: 64px;
+  max-width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
 }
 .row:after {
   content: "";
@@ -112,6 +111,7 @@ hr {
   float: left;
   width: 66.66666%;
   padding: 20px;
+  margin-top: 6%;
 }
 .column-33 {
   float: left;
@@ -119,21 +119,19 @@ hr {
   padding: 20px;
 }
 .large-font {
-  font-size: clamp(12px, 4vw, 33px); /*Makes text responsive*/
   text-align: center;
   padding: 10px;
 }
 .xlarge-font {
-  font-size: clamp(12px, 4vw, 40px); /*Makes text responsive*/
 }
 .milestone-text {
-  font-size: clamp(12px, 4vw, 22px); /*Makes text responsive*/
   text-align: justify;
   padding-top: 50px;
+  line-height: 25px;
 }
 img {
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 @media screen and (max-width: 1000px) {
   /*To make ZigZag portion responsive*/
@@ -159,6 +157,7 @@ footer {
   position: fixed;
   background-color: #0c265a;
   overflow: hidden;
+  width: 100%;
 }
 /* Left-aligned links */
 .topnav a:first-child {
