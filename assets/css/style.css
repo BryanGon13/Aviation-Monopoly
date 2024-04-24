@@ -14,6 +14,7 @@ body {
   flex-direction: column;
   font-family: "Roboto";
   font-size: 15px;
+  color: #494949;
 }
 /* Navigation Bar*/
 .topnav {
@@ -175,7 +176,7 @@ footer {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #708f8f;
+  background-color: white;
   color: black;
 }
 /* Add a color to the active/current link */
