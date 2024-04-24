@@ -26,56 +26,49 @@ body {
 .topnav a {
   float: left;
   display: flex;
-  color: #f2f2f2;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
   font-size: clamp(12px, 4vw, 22px); /*Makes text responsive*/
   border-bottom: 2px solid transparent;
+  color: black;
 }
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
   float: right;
-  color: white;
-}
-/*Title and description*/
-.title {
-  text-align: center;
-  font-size: x-large;
+ 
 }
 /*Video on homepage*/
 .video-content {
   position: relative;
-  height: 60vh; /*Adjust video hight on homepage for stylistic reason*/
-  width: 100vw;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #ebefef;
 }
-.video-content video {
-  z-index: -1;
-  position: absolute;
-  width: auto;
-  height: auto;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%; /*This is to make the entire video visible, not just the center*/
-  left: 50%;
-  transform: translate(-50%, -50%); /*to put video back into place*/
-  padding-top: 51px; /*This is to ensure the video isn't cropped out by the header, which is 51px in height*/
+.video-content img {
+  height: 63vh; /*Adjust video hight on homepage for stylistic reason*/
+  width: 50vw;
 }
+
+/*Title on Homepage*/
 .video-title {
   position: absolute;
-  top: 220px;
+  top: 100px;
+  width: 50%;
   padding: 20px;
-  font-size: clamp(12px, 4vw, 20px); /*Makes text responsive*/
   text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  color: black;
 }
+.video-title h1 {
+  font-size: 40px;
+  padding: 43px;
+}
+.video-title p {
+  padding: 60px 20px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+
 /*Milestones Section*/
 .milestonetitle {
   text-align: center;
@@ -122,8 +115,6 @@ body {
   text-align: center;
   padding: 10px;
 }
-.xlarge-font {
-}
 .milestone-text {
   text-align: justify;
   padding-top: 50px;
@@ -155,7 +146,6 @@ footer {
 /*Airbus Page Layout*/
 .topnav {
   position: fixed;
-  background-color: #0c265a;
   overflow: hidden;
   width: 100%;
 }
@@ -179,7 +169,6 @@ footer {
 }
 /* Style the links inside the navigation bar */
 .topnav a {
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -187,7 +176,7 @@ footer {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #708f8f;
   color: black;
 }
 /* Add a color to the active/current link */
@@ -216,6 +205,31 @@ footer {
   }
 }
 
+/*Airbus Homepage*/
+.airbus-hero{
+  background-color: #ebefef;
+  height 100%;
+  width: 100%;
+}
+.airbus-hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 31%;
+  height: 100vh;
+  padding-top: 100px;
+}
+.airbus-title{
+  position: absolute;
+    width: max-content;
+    top: 30%;
+    padding: 85px;
+    text-align: center;
+}
+.a220-container img {
+  width: 100vw;
+  height: 100vh;
+}
 /*Aircraft Fleet*/
 .a220-container {
   position: relative;
@@ -279,12 +293,4 @@ footer {
   text-align: center;
   opacity: 0.7;
   font-size: 18px;
-}
-.a220-container .airbus-family {
-  height: auto;
-  width: auto;
-}
-.a220-container .family-video {
-  width: 100vw;
-  height: 100vh;
 }
