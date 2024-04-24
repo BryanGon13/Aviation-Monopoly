@@ -36,7 +36,6 @@ body {
 /* Create a right-aligned (split) link inside the navigation bar */
 .topnav a.split {
   float: right;
- 
 }
 /*Video on homepage*/
 .video-content {
@@ -206,25 +205,30 @@ footer {
 }
 
 /*Airbus Homepage*/
-.airbus-hero{
+.airbus-hero {
+  position: relative;
+  overflow: hidden;
   background-color: #ebefef;
-  height 100%;
-  width: 100%;
+  height: 63vh;
+  font-size: x-large;
 }
-.airbus-hero img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 31%;
-  height: 100vh;
-  padding-top: 100px;
-}
-.airbus-title{
+.airbus-title {
   position: absolute;
-    width: max-content;
-    top: 30%;
-    padding: 85px;
-    text-align: center;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.stats {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: max-content;
+  font-size: 16px;
+  line-height: 30px;
+  list-style-type: disc;
 }
 .a220-container img {
   width: 100vw;
