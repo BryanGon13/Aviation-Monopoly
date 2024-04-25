@@ -16,28 +16,106 @@ body {
   font-size: 15px;
   color: #494949;
 }
-/* Navigation Bar*/
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#logo {
+  float: left;
+  font-size: 200%;
+  margin: 0 0 0 20px;
+}
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 3px;
+}
+
+#menu,
+#logo {
+  line-height: 75px;
+}
+
+#menu ul {
+  margin: 0;
+  float: right;
+}
+
+#menu li {
+  float: left;
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+#menu a:hover {
+  background-color: white;
+}
+
+.spacing-under-nav {
+  position: relative;
+  top: -75px;
+}
+
+/* Dropdown Nav */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e1eae7;
+  min-width: 150px;
+  z-index: 1;
+  box-shadow: 0 0 3px #808080;
+}
+
+.dropdown-content a {
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Navigation Bar 
 .topnav {
   overflow: hidden;
   position: absolute;
   width: 100%;
   z-index: 1;
 }
-/* Style the links inside the navigation bar */
+/* Style the links inside the navigation bar
 .topnav a {
   float: left;
   display: flex;
   text-align: center;
-  padding: 10px 10px;
+  padding: 16px 22px;
   text-decoration: none;
-  font-size: clamp(12px, 4vw, 22px); /*Makes text responsive*/
+  font-size: clamp(12px, 4vw, 22px); /*Makes text responsive
   border-bottom: 2px solid transparent;
   color: black;
+  line-height: 30px;
+  font-weight: 500;
 }
-/* Create a right-aligned (split) link inside the navigation bar */
+/* Create a right-aligned (split) link inside the navigation bar
 .topnav a.split {
   float: right;
-}
+}*/
+
 /*Video on homepage*/
 .video-content {
   position: relative;
@@ -141,68 +219,6 @@ footer {
   text-align: center;
   color: antiquewhite;
   background-color: black;
-}
-
-/*Airbus Page Layout*/
-.topnav {
-  position: fixed;
-  overflow: hidden;
-  width: 100%;
-}
-/* Left-aligned links */
-.topnav a:first-child {
-  float: left;
-}
-/* Centered section inside the top navigation */
-.topnav-centered {
-  display: inline-block;
-  text-align: center;
-}
-.topnav-centered a {
-  float: none;
-  display: inline-block;
-  margin: 0 10px;
-}
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: white;
-  color: black;
-}
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
-}
-
-/* Responsive navigation menu */
-@media screen and (max-width: 600px) {
-  .topnav a,
-  .topnav-right {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-  .topnav-centered {
-    text-align: left;
-  }
-
-  .topnav-centered a {
-    display: block;
-    margin: 10px auto; /* Adjust margin for spacing and centering */
-    text-align: center;
-  }
 }
 
 /*Airbus Homepage*/
