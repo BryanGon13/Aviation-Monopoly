@@ -27,6 +27,8 @@ header {
   float: left;
   font-size: 200%;
   margin: 0 0 0 20px;
+  text-decoration: none;
+  color: black;
 }
 
 #menu {
