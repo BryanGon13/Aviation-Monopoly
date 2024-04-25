@@ -17,10 +17,11 @@ body {
   color: #494949;
 }
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 1;
+  background-color: #e1eae7;
 }
 
 #logo {
