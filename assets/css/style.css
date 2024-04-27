@@ -350,4 +350,10 @@ footer {
   margin: 0px 5px;
 }
 
+@media (max-width: 700px) {
+  .footer-container {
+    width: ;
+  }
+}
+
 /* Footer styling ends here*/
