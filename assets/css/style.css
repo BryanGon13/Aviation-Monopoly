@@ -16,6 +16,9 @@ body {
   font-size: 15px;
   color: #494949;
 }
+
+/* Header styling starts here */
+
 header {
   position: fixed;
   top: 0;
@@ -43,7 +46,6 @@ header {
 }
 
 #menu ul {
-  margin: 0;
   float: right;
 }
 
@@ -55,12 +57,12 @@ header {
 
 #menu a {
   text-decoration: none;
-  color: inherit;
-  padding: 10px;
+  color: black;
+  padding: 25px 15px;
 }
-
 #menu a:hover {
   background-color: white;
+  border: 10px;
 }
 
 .spacing-under-nav {
@@ -94,32 +96,10 @@ header {
   text-align: center;
 }
 
-/* Navigation Bar 
-.topnav {
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-}
-/* Style the links inside the navigation bar
-.topnav a {
-  float: left;
-  display: flex;
-  text-align: center;
-  padding: 16px 22px;
-  text-decoration: none;
-  font-size: clamp(12px, 4vw, 22px); /*Makes text responsive
-  border-bottom: 2px solid transparent;
-  color: black;
-  line-height: 30px;
-  font-weight: 500;
-}
-/* Create a right-aligned (split) link inside the navigation bar
-.topnav a.split {
-  float: right;
-}*/
+/* Header styling ends here */
 
 /*Video on homepage*/
+
 .video-content {
   position: relative;
   overflow: hidden;
@@ -327,7 +307,7 @@ footer {
 
 .footer-container {
   width: 100%;
-  padding: 70px 30px 20px;
+  padding: 20px 30px;
 }
 
 .social-media {
@@ -337,8 +317,7 @@ footer {
 
 .social-media a {
   text-decoration: none;
-  padding: 10px;
-  background-color: white;
+  padding: 10px 50px;
   margin: 10px;
   border-radius: 50%;
 }
@@ -347,11 +326,6 @@ footer {
   font-size: 2em;
   color: #699689;
   opacity: 0.9;
-}
-
-.social-media a:hover {
-  background-color: #699689;
-  transition: 0.5s;
 }
 
 .social-media a:hover i {
@@ -370,13 +344,10 @@ footer {
 }
 
 .designer {
-  opacity: 0.7;
+  opacity: 0.8;
   letter-spacing: 1px;
   font-weight: 500;
   margin: 0px 5px;
-}
-
-@media screen {
 }
 
 /* Footer styling ends here*/
