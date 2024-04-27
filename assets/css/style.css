@@ -121,7 +121,7 @@ header {
 }
 .video-title h1 {
   font-size: 40px;
-  padding: 43px;
+  padding: 20px;
 }
 .video-title p {
   padding: 60px 20px;
@@ -134,7 +134,7 @@ header {
 .milestonetitle {
   text-align: center;
   line-height: 25px;
-  padding: 60px 30px;
+  padding: 100px 30px;
   padding-bottom: 15px;
 }
 
@@ -152,9 +152,9 @@ header {
 }
 /*ZigZag format - Follow template on W3Schools*/
 .container {
-  max-width: 1200px;
-  padding: 20px 0;
-  margin: 0 auto;
+  max-width: 100%;
+  padding: 20px 180px;
+  margin: 0 10px;
 }
 .row:after {
   content: "";
