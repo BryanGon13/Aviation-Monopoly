@@ -21,7 +21,7 @@ header {
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: #e1eae7;
+  background-color: #d2e0dc;
 }
 
 #logo {
@@ -29,7 +29,7 @@ header {
   font-size: 200%;
   margin: 0 0 0 20px;
   text-decoration: none;
-  color: black;
+  color: #2a3c37;
 }
 
 #menu {
@@ -318,3 +318,65 @@ footer {
   opacity: 0.7;
   font-size: 18px;
 }
+
+/* Footer styling starts here*/
+
+footer {
+  background-color: #d2e0dc;
+}
+
+.footer-container {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.social-media a i {
+  font-size: 2em;
+  color: #699689;
+  opacity: 0.9;
+}
+
+.social-media a:hover {
+  background-color: #699689;
+  transition: 0.5s;
+}
+
+.social-media a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-bottom {
+  background-color: #699689;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin: 0px 5px;
+}
+
+@media screen {
+}
+
+/* Footer styling ends here*/
