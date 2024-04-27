@@ -153,7 +153,7 @@ header {
 /*ZigZag format - Follow template on W3Schools*/
 .container {
   max-width: 100%;
-  padding: 20px 180px;
+  padding: 20px 40px;
   margin: 0 10px;
 }
 .row:after {
@@ -191,17 +191,11 @@ img {
   .column-33 {
     width: 100%;
     text-align: center;
+    padding: ;
   }
   img {
     margin: auto;
   }
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  color: antiquewhite;
-  background-color: black;
 }
 
 /*Airbus Homepage*/
@@ -348,12 +342,6 @@ footer {
   letter-spacing: 1px;
   font-weight: 500;
   margin: 0px 5px;
-}
-
-@media (max-width: 700px) {
-  .footer-container {
-    width: ;
-  }
 }
 
 /* Footer styling ends here*/
