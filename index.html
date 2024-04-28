@@ -72,21 +72,13 @@
           </li>
 
           <li>
-            <a href="index.html">Sign Up</a>
+            <a href="index.html#form">Contact Us</a>
           </li>
         </ul>
       </nav>
     </header>
-    <!-- Main Content -->
     <main>
-      <!--Image on homepage -->
       <section class="video-content">
-        <img
-          align="right"
-          src="./assets/images/jens-kreuter-IBb0U6k0PAY-unsplash.jpg"
-          alt="Aeroplane wing in flight"
-        />
-        <!--Video Text-->
         <div class="video-title">
           <h1>
             Aviation Monopoly <br />
@@ -117,9 +109,9 @@
     <div class="container">
       <div class="row">
         <div class="column-66">
-          <h3 class="large-font">
+          <h2 class="large-font">
             <b>1916<br />Boeing is founded</b>
-          </h3>
+          </h2>
           <hr />
           <p class="milestone-text">
             On the 15th of July 1916, William Boeing, an enterprising American
@@ -160,12 +152,12 @@
           />
         </div>
         <div class="column-66">
-          <h3 class="large-font">
+          <h2 class="large-font">
             <b
               >1967<br />Boeing 737 - The best-selling commercial jetliner in
               history</b
             >
-          </h3>
+          </h2>
           <hr />
           <p class="milestone-text">
             On the 9th of April 1967, the Boeing 737, one of the most iconic and
@@ -192,9 +184,9 @@
     <div class="container">
       <div class="row">
         <div class="column-66">
-          <h3 class="large-font">
+          <h2 class="large-font">
             <b>1969<br />Airbus is formed</b>
-          </h3>
+          </h2>
           <hr />
           <p class="milestone-text">
             On May 18, 1969, Airbus Industrie was established as a
@@ -233,12 +225,12 @@
           />
         </div>
         <div class="column-66">
-          <h3 class="large-font">
+          <h2 class="large-font">
             <b
               >1983<br />Revolutionizing Flight: The Airbus A320 and the Dawn of
               Fly-by-Wire Technology</b
             >
-          </h3>
+          </h2>
           <hr />
           <p class="milestone-text">
             On June 26, 1983, Airbus introduced the groundbreaking Airbus A320,
@@ -265,6 +257,31 @@
         </div>
       </div>
     </div>
+
+    <!-- Form Section starts here -->
+    <section class="form" id="form">
+
+      <div class="contacts-us">
+        <form class="contacts-us-form" method="post" action="https://formdump.codeinstitute.net" target="_blank">
+          <h3>Get In Touch</h3>
+          <p>Have any questions, or suggestions! Let us know we are here to help</p>
+
+          <label for="fullname"></label>
+          <input type="text" name="full_name" placeholder="Enter your full name" id="full-name" class="text-input" required>
+
+          <label for="email"></label>
+          <input type="email" name="email" placeholder="Enter your email address" id="email" class="text-input" required>
+
+          <label for="question"></label>
+          <textarea name="suggestion" placeholder="Please enter your question or suggestion here" id="suggestion" required></textarea>
+
+          <input type="submit" value="Submit" class="contact-us-button">
+        </form>
+      </div>
+
+    </section>
+
+    <!-- Form Section ends here -->
 
     <!-- Footer section starts here -->
 
