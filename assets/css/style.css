@@ -13,70 +13,59 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto";
-  font-size: 15px;
+  font-size: 16px;
   color: #494949;
 }
 
 /* Header styling starts here */
 
 header {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: relative;
+  height: 70px;
   z-index: 1;
-  background-color: #d2e0dc;
-}
-
-#logo {
-  float: left;
-  font-size: 200%;
-  margin: 0 0 0 20px;
-  text-decoration: none;
-  color: #699689;
-  letter-spacing: 3px;
-}
-
-#menu {
-  font-size: 110%;
-  letter-spacing: 3px;
-}
-
-#menu,
-#logo {
-  line-height: 75px;
 }
 
 #menu ul {
-  float: right;
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  font-size: 118%;
+  letter-spacing: 2px;
 }
 
 #menu li {
-  float: left;
-  list-style-type: none;
-  margin-right: 15px;
+  margin: 0 10px;
+}
+
+#menu .homepage,
+#menu .contact {
+  margin: 0;
+}
+
+#menu .homepage {
+  margin-right: auto;
+}
+
+#menu .contact {
+  margin-left: auto;
 }
 
 #menu a {
   text-decoration: none;
   color: black;
-  padding: 25px 15px;
+  padding: 15px 10px;
+  text-align: center;
 }
+
 #menu a:hover {
-  background-color: white;
-  border: 10px;
+  background-color: #d2e0dc;
 }
 
-.spacing-under-nav {
-  position: relative;
-  top: -75px;
-}
+/* Header styling ends here */
 
-/* Dropdown Nav */
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+/* Dropdown Nav styling starts here */
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -85,7 +74,7 @@ header {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #e1eae7;
+  background-color: white;
   min-width: 150px;
   z-index: 1;
   box-shadow: 0 0 3px #808080;
@@ -97,46 +86,71 @@ header {
   text-align: center;
 }
 
-/* Header styling ends here */
+/* Dropdown Nav styling ends here */
 
-/*Video on homepage*/
+/* Hero page starts here*/
 
-.video-content {
+.hero {
   position: relative;
   overflow: hidden;
-  background-color: #ebefef;
   height: 63vh;
 }
 
-/*Title on Homepage*/
-
-.video-title {
-  position: absolute;
-  top: 120px;
+.hero img {
   width: 100%;
-  padding: 20px;
-  text-align: center;
-  color: black;
+  height: auto;
+  object-fit: cover;
 }
-.video-title h1 {
+
+.page-title {
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.page-title h1 {
   font-size: 40px;
   padding: 20px;
 }
-.video-title p {
-  padding: 60px 55px;
+
+/* Hero page ends here*/
+
+/* About section starts here */
+
+.about-section {
+  padding: 30px 80px;
+}
+
+.about-section h2 {
+  text-align: center;
+  font-size: 27px;
+  padding: 30px;
+}
+
+.about-section p {
   text-align: center;
   line-height: 30px;
-  font-size: 18px;
+  margin: 30px auto;
 }
+
+/* About section ends here */
+
 
 /*Milestones Section*/
 .milestonetitle {
-  text-align: center;
-  line-height: 25px;
-  padding: 100px 30px;
-  padding-bottom: 15px;
-  font-size: large;
+  background-color: #f0f5f3;
+  padding: 30px 60px;
 }
+.milestonetitle h2{ 
+  text-align: center;
+  padding: 30px;
+  font-size: 27px;
+}
+
 
 /*Milestones checkpoints*/
 .checkpoint {
@@ -152,52 +166,26 @@ header {
 }
 /*ZigZag format - Follow template on W3Schools*/
 .container {
-  max-width: 100%;
-  padding: 20px 40px;
+  padding: 20px 80px;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.column-66 {
-  float: left;
-  width: 66.66666%;
+.container h3{
+  text-align: center;
   padding: 20px;
-  margin-top: 6%;
 }
+.container video{
+  display: block;
+    margin: auto;
+}
+
 .column-33 {
   float: left;
-  width: 33.33333%;
   padding: 20px;
 }
-.large-font {
-  text-align: center;
-  padding: 10px;
-}
+
 .milestone-text {
   text-align: justify;
   padding-top: 50px;
   line-height: 25px;
-}
-img {
-  width: 100%;
-}
-@media screen and (max-width: 1000px) {
-  /*To make ZigZag portion responsive*/
-  .column-66,
-  .column-33 {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-  }
-  .video-content img {
-    margin: auto;
-    opacity: 0.4;
-  }
-  .video-title {
-    width: 100%;
-  }
 }
 
 /*Airbus Homepage*/
@@ -414,7 +402,7 @@ img {
 }
 
 .text-input {
-  background-color: #d2e0dc;
+  background-color: white;
   width: 90%;
   padding: 10px;
   margin: 5px;
@@ -422,7 +410,7 @@ img {
 }
 
 textarea {
-  background-color: #d2e0dc;
+  background-color: white;
   padding: 10px;
   width: 90%;
   height: 100px;
@@ -447,14 +435,14 @@ textarea {
 }
 
 
-
-
 /* Contacts us form ends here */
 
 /* Footer styling starts here*/
 
 footer {
   background-color: #d2e0dc;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-container {
@@ -503,3 +491,21 @@ footer {
 }
 
 /* Footer styling ends here*/
+
+
+/* Media queries for responsivness */
+
+@media screen and (max-width: 768px) {
+  .page-title {
+    width: 100%; 
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  /*To make ZigZag portion responsive*/
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+}

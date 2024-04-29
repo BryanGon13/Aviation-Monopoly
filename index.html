@@ -37,14 +37,10 @@
   </head>
   <body>
     <header>
-      <a href="index.html">
-        <h1 id="logo">AVIATION MONOPOLY</h1>
-      </a>
       <nav id="menu">
         <ul>
-          <li>
-            <a href="index.html#Milestones">Milestones</a>
-          </li>
+          <li class="homepage"><a href="index.html">Home</a></li>
+          <li><a href="index.html#Milestones">Milestones</a></li>
           <li class="dropdown">
             <a href="Airbus.html">Airbus</a>
             <div class="dropdown-content">
@@ -55,7 +51,6 @@
               <a href="Airbus.html#a380">A380</a>
             </div>
           </li>
-
           <li class="dropdown">
             <a href="Boeing.html">Boeing</a>
             <div class="dropdown-content">
@@ -66,48 +61,63 @@
               <a href="Boeing.html#b787">Boeing 787</a>
             </div>
           </li>
-
-          <li>
-            <a href="index.html#form">Contact Us</a>
-          </li>
+          <li class="contact"><a href="index.html#form">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="video-content">
-        <div class="video-title">
-          <h2>
+
+      <!-- Hero Page starts here -->
+
+      <section class="hero">
+        <img src="./assets/images/Untitled design.jpg" alt="Plane in flight with a green sky background">
+        <div class="page-title">
+          <h1>
             Aviation Monopoly <br>
             The Dominance of Airbus and Boeing
-          </h2>
-          <hr>
-          <p>
-            Embark on an epic journey through the skies as we explore the
-            extraordinary milestones of two aerospace giants, Airbus and
-            Boeing.<br>
-            These trailblazers have not only shaped the course of aviation
-            history but have continually pushed the boundaries of technology,
-            design, and efficiency.<br>
-            Whether you're an aviation enthusiast, a history buff, or simply
-            curious, join us as we soar through the legacies of these industry
-            leaders and their monumental contributions to the world of flight.
-          </p>
+          </h1>
         </div>
       </section>
     </main>
 
+    <section class="about-section">
+      <h2>About Aviation Monopoly</h2>
+      <hr>
+      <p>
+        Step into a captivating odyssey through the skies with Aviation Monopoly, 
+        where we meticulously uncover the remarkable milestones of two aerospace titans, Airbus and Boeing. 
+        These visionary pioneers not only charted the course of aviation history but 
+        also relentlessly pushed the frontiers of technology, design, and efficiency.
+      </p>
+      <p>
+        Whether you're an avid aviation enthusiast, a passionate history connoisseur, 
+        or simply intrigued by the marvels of flight, we invite you to join us in exploring 
+        the enduring legacies of these industry luminaries. Together, let's delve into their 
+        monumental contributions that have shaped and revolutionized the world of aviation.
+      </p>
+    </section>
+    
+
     <!--Milestones title-->
-    <div class="milestonetitle" id="Milestones">
-      <h1>Milestones in Flight</h1>
+    <div class="milestonetitle">
+      <h2>Milestones in Flight</h2>
+      <hr>
     </div>
+    
 
     <!--Milestones information-->
-    <div class="container">
+    <div class="container" style="background-color: #f0f5f3;">
       <div class="row">
+        <div class="column-33">
+          <img
+            src="./assets/images/boeing-building.jpg"
+            width="335"
+            height="471" alt="building with boeing sign">
+        </div>
         <div class="column-66">
-          <h2 class="large-font">
+          <h3>
             <b>1916<br>Boeing is founded</b>
-          </h2>
+          </h3>
           <hr>
           <p class="milestone-text">
             On the 15th of July 1916, William Boeing, an enterprising American
@@ -128,15 +138,9 @@
             presence in the aviation industry.
           </p>
         </div>
-        <div class="column-33">
-          <img
-            src="./assets/images/boeing-building.jpg"
-            width="335"
-            height="471" alt="building with boeing sign">
-        </div>
       </div>
     </div>
-    <div class="container" style="background-color: #ebefef">
+    <div class="container">
       <div class="row">
         <div class="column-33">
           <img
@@ -145,11 +149,11 @@
             height="471" alt="image on a b737 on ground">
         </div>
         <div class="column-66">
-          <h2 class="large-font">
+          <h3>
             <b
               >1967<br>Boeing 737 - The best-selling commercial jetliner in
               history</b>
-          </h2>
+          </h3>
           <hr>
           <p class="milestone-text">
             On the 9th of April 1967, the Boeing 737, one of the most iconic and
@@ -173,12 +177,15 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" style="background-color: #f0f5f3;">
       <div class="row">
+        <div class="column-33">
+          <img src="./assets/images/Airbus.jpg" width="335" height="471" alt="airbus in flight">
+        </div>
         <div class="column-66">
-          <h2 class="large-font">
+          <h3>
             <b>1969<br>Airbus is formed</b>
-          </h2>
+          </h3>
           <hr>
           <p class="milestone-text">
             On May 18, 1969, Airbus Industrie was established as a
@@ -201,12 +208,9 @@
             industrial capabilities on the world stage.
           </p>
         </div>
-        <div class="column-33">
-          <img src="./assets/images/Airbus.jpg" width="335" height="471" alt="airbus in flight">
-        </div>
       </div>
     </div>
-    <div class="container" style="background-color: #ebefef">
+    <div class="container">
       <div class="row">
         <div class="column-33">
           <img
@@ -216,11 +220,11 @@
             height="471">
         </div>
         <div class="column-66">
-          <h2 class="large-font">
+          <h3>
             <b
               >1983<br>Revolutionizing Flight: The Airbus A320 and the Dawn of
               Fly-by-Wire Technology</b>
-          </h2>
+          </h3>
           <hr>
           <p class="milestone-text">
             On June 26, 1983, Airbus introduced the groundbreaking Airbus A320,
@@ -242,13 +246,28 @@
             represented a monumental leap forward in aviation technology,
             showcasing Airbus's commitment to innovation and safety. Its
             pioneering use of fly-by-wire technology revolutionized aircraft
-            design and performance, shaping the future of commercial aviation.
+            design and performance, shaping the future of commercial aviation. <br>
+            Discover the breadth and innovation of the Airbus fleet in this 
+            comprehensive video showcase. From the iconic A220 to the majestic A380, 
+            embark on a journey through Airbus's remarkable aircraft lineup, 
+            showcasing their cutting-edge technology and unparalleled performance in the skies.
           </p>
+          <br>
+          <video width="400" controls>
+            <source src="./assets/images/Aircraft family.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          
         </div>
       </div>
     </div>
 
-    <!-- Form Section starts here -->
+    <!-- Footer section starts here -->
+
+    <footer>
+
+      <!-- Form Section starts here -->
+
     <section class="form" id="form">
 
       <div class="contacts-us">
@@ -273,9 +292,6 @@
 
     <!-- Form Section ends here -->
 
-    <!-- Footer section starts here -->
-
-    <footer>
       <div class="footer-container">
         <div class="social-media">
           <a href="https://www.facebook.com/" target="_blank"
