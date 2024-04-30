@@ -66,7 +66,8 @@ Wireframes were produced using Balsamiq.
     - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
     - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
 
-![Nav bar image]()
+![Nav bar image](./Documents/ReadMe_Images/Nav_Bar.png)
+
 
 
 
