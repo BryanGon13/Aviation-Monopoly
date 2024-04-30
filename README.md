@@ -114,12 +114,12 @@ Wireframes were produced using Balsamiq.
 - #### HTML
 
     - No errors were returned when passing through the official W3C Markup Validator
-    - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2Findex.html)
+    - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryangon13.github.io%2FAviation-Monopoly%2F)
 
 - #### CSS
 
     - No errors were found when passing through the official W3C CSS Validator 
-    - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Faliokeeffe.github.io%252Fmindyoga%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbryangon13.github.io%2FAviation-Monopoly%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 - #### Accessibility 
 
