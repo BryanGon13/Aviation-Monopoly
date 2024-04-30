@@ -314,7 +314,7 @@ textarea {
   position: relative;
   text-align: center;
   width: 90%;
-  background-color: #699689;
+  background-color: #54786e;
   padding: 5px;
   margin-top: 10px;
   border: 0;
@@ -356,7 +356,7 @@ footer {
 
 .social-media a i {
   font-size: 2em;
-  color: #699689;
+  color: #54786e;
   opacity: 0.9;
 }
 
@@ -366,7 +366,7 @@ footer {
 }
 
 .footer-bottom {
-  background-color: #699689;
+  background-color: #54786e;
   padding: 20px;
   text-align: center;
 }
