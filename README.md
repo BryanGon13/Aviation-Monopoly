@@ -68,8 +68,46 @@ Wireframes were produced using Balsamiq.
 
 ![Nav bar image](./Documents/ReadMe_Images/Nav_Bar.png)
 
+- ### Landing Page Image
 
+    - The landing page includes an eye-catching image with a text overlay describing the site's goal.
+    - This section provides the user with a clear visual representation of the purpose of the site.
 
+![Landing page](./Documents/ReadMe_Images/Landing_page.png)
+
+- ### About Section
+
+    - Provide users with a captivating journey through the aviation industry, uncovering the remarkable milestones of Airbus and Boeing while highlighting their significant contributions to aviation history, technology, design, and efficiency.
+    - Invite aviation enthusiasts, history aficionados, and those intrigued by flight to explore the enduring legacies of Airbus and Boeing, delving into their monumental contributions that have shaped and revolutionized the world of aviation.
+
+![About section image](./Documents/ReadMe_Images/About_us.png)
+
+- ### Milestones Section
+
+    - Within this section, significant milestones in aviation history are curated, offering invaluable insights for aviation enthusiasts.
+    - This segment holds great value as users are presented with key events that have shaped the aviation industry into what it is today, providing a deeper understanding of its evolution.
+
+![Poses section image](./Documents/ReadMe_Images/Milestones.png)
+
+- ### Contact Us Section
+
+    - The "Contact Us" section serves as a vital avenue for users to engage with us, fostering open communication and enabling us to address their inquiries or feedback promptly.
+    - The "Contact Us" section also provides users with a direct channel to reach out to us for any assistance they may need, ensuring a personalized and responsive experience tailored to their needs.
+
+![Form section image](./Documents/ReadMe_Images/Contact_Us.png)
+
+- ### Footer
+
+    - The footer section includes links to our Facebook, Instagram, Twitter and Youtube pages.
+    - The links will open to a new tab to allow easy navigation for the user. 
+    - The footer is valuable to the user as it allows them to find and follow us on social media
+
+![Footer image](./Documents/ReadMe_Images/Footer.png)
+
+### Features Left to Implement
+
+- Burger button for the mobile nav bar.
+- Update to commercial aircraft fleet and include cargo aircrafts.
 
 
 
