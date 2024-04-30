@@ -1,39 +1,87 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Aviation Monopoly 
 
-Welcome,
+Aviation Monopoly is a platform dedicated to providing insights into the aviation industry's foremost players, Airbus and Boeing. Tailored for users seeking deeper comprehension of these industry leaders' histories and fleet compositions.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Aviation Monopoly looks into the origins and significant milestones that have shaped Airbus and Boeing into the globally renowned entities they are today. Users keen on exploring the specifics of each manufacturer's commercial aircraft can seamlessly navigate through the website. These pages furnish essential statistics about the companies and detailed information regarding their respective most popular aircraft model. Additionally, images facilitate easy differentiation between various aircraft variants, enhancing the user experience.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The live link can be found here - [Aviation Monopoly](https://bryangon13.github.io/Aviation-Monopoly/)
 
-## Codeanywhere Reminders
+![Mind Yoga Am I Responsive Image](docs/readme_images/am-i-responsive.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Site Owner Goals 
 
-`python3 -m http.server`
+- To offer users insights into the remarkable achievements and innovations of aviation giants Airbus and Boeing, with a specific emphasis on their historical significance and diverse fleet offerings.
+- To guide users through the rich history and extensive commercial aircraft catalog of both manufacturers with clear and concise instructions, detailed statistics, images, and key information provided for each aircraft model.
+- To prioritize delivering a seamless and calming user experience, ensuring easy navigation, full responsiveness across devices.
+- To invite aviation enthusiasts to contribute their insights, suggestions, and feedback.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User Stories
+- ### First time user
+  - As a first time user I want to understand the main purpose of the site and learn about the history of Airbus and Boeing.
+  - As a first time user I want to be able to intuitively navigate the website and have a positive experience. 
+  - As a first time user I want to be able to browse aviation content without having to sign-up / register.
+ 
+- ### Returning User
+  - As a returning user I want to easily navigate to a specific historic event in the company's history.  
+  - As a returning user I want to find information about the most popular aircrafts in today's world.
+  - As a returning user, I aim to revisit captivating images of aircraft models while refreshing my memory on their essential statistics.
+ 
+- ### Frequent User
+  - As a frequent user I want to be able to ask questions or submit suggestions about the aviation industry.
+ 
+## Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Imagery
+The visuals featured on the Aviation Monopoly website play a crucial role in enhancing the user's overall experience. We maintain a clean and academic white background, providing a canvas for various sections distinguished by different shades of green. This deliberate choice not only ensures visual clarity but also adds a touch of sophistication, contributing to a seamless and engaging browsing experience for our users.
 
-`http_server`
+### Colours
+The colour scheme of the website is white with varying shades of green used to tie in pictures of aircrafts. A dark grey font is used which has a good contrast with the light green and white backgrounds making it easy to read. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Fonts
+The Roboto font is the main font used throughout the whole website. This font was imported via [Google Fonts](https://fonts.google.com/). I'm using Sans Serif as a backup font, in case for any reason the main font isn't being imported into the site correctly.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Wireframes
+Wireframes were produced using Balsamiq. 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ <details>
 
-To log into the Heroku toolbelt CLI:
+ <summary>Desktop Wireframe</summary>
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Desktop Wireframe](docs/wireframes/desktopwireframe.png)
+ </details>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ <details>
+    <summary>Mobile Wireframe</summary>
 
----
+![Mobile Wireframe](docs/wireframes/mobilewireframe.png)
+ </details>
 
-Happy coding!
+
+## Features
+- ### Navigation
+
+    - The fully responsive navigation bar includes links to the Logo, Home, About, Poses, Practice and Contribute sections of the same page.
+    - The Poses navigation link includes a drop down menu which includes further links to each emotional state within the Poses section.
+    - The navigation bar has a fixed position so that it remains visible at the top of the page as the user navigates through the individual sections. 
+    - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
+    - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
+
+![Nav bar image](docs/readme_images/nav-bar.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
