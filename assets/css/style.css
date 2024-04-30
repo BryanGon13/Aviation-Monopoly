@@ -399,6 +399,7 @@ footer {
   .column-33 {
     width: 100%;
     text-align: center;
+    align-items: center;
   }
   .hero{
     height: 38vh;
@@ -420,5 +421,10 @@ footer {
   .page-title {
     font-size: 12px;
     top: 10px; 
+  }
+  .column-33 img{
+    align-items: center;
+    width: 300px;
+    height: 300px;
   }
 }
