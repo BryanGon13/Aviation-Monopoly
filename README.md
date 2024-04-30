@@ -66,7 +66,7 @@ Wireframes were produced using Balsamiq.
     - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
     - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
 
-![Nav bar image](<img width="1710" alt="Nav_Bar" src="https://github.com/BryanGon13/Aviation-Monopoly/assets/162766793/6313c5f7-2f98-4513-9a92-1190ad9800fa">)
+![Nav bar image]()
 
 
 
