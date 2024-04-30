@@ -415,3 +415,10 @@ footer {
     line-height: 30px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .page-title {
+    font-size: 18px;
+    top: 10px; 
+  }
+}

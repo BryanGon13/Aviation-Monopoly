@@ -100,7 +100,7 @@ Wireframes were produced using Balsamiq.
 
     - The footer section includes links to our Facebook, Instagram, Twitter and Youtube pages.
     - The links will open to a new tab to allow easy navigation for the user. 
-    - The footer is valuable to the user as it allows them to find and follow us on social media
+    - The footer is valuable to the user as it allows them to find and follow us on social media.
 
 ![Footer image](./Documents/ReadMe_Images/Footer.png)
 
@@ -113,21 +113,35 @@ Wireframes were produced using Balsamiq.
 
 - #### HTML
 
-    - No errors were returned when passing through the official W3C Markup Validator
+    - No errors were returned when passing through the official W3C Markup Validator.
     - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbryangon13.github.io%2FAviation-Monopoly%2F)
 
 - #### CSS
 
-    - No errors were found when passing through the official W3C CSS Validator 
+    - No errors were found when passing through the official W3C CSS Validator. 
     - [W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbryangon13.github.io%2FAviation-Monopoly%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 - #### Accessibility 
 
-    - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible
+    - The site achieved a Lighthouse accessibility score of 93% which confirms that the colours and fonts chosen are easy to read and accessible.
 
 ![Lighthouse score](./Documents/ReadMe_Images/Accessibility.png)
 
+### Form Testing
 
+- The form has been tested to ensure it would not submit without the required input fields being filled in (full name and email address).
+
+### Links Testing
+
+- All navigation links were tested manually to ensure the user is directed to the correct section of the website.
+- Social Media links in the footer of each page were tested manually to ensure they direct the user to the correct page and open in a new tab. 
+
+### Device Testing
+
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
+- I also used the following websites to test responsiveness:
+    - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+    - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
 
 
 
