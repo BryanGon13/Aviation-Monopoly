@@ -85,8 +85,28 @@ a{
   scale: 1.2;
   transition: 0.5s ease;
 }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  z-index: 1;
+  box-shadow: 0 0 3px #808080;
+}
+
+.dropdown-content a {
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
 
 /* Header styling ends here */
+
+
 
 /* Dropdown Nav styling starts here */
 
@@ -417,6 +437,50 @@ footer {
   .page-title {
     width: 100%; 
   }
+  .navbar .links {
+    display: none;
+  }
+
+  .navbar .toggle-btn {
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .dropdown-content {
+    position: relative;
+    min-width: unset;
+    box-shadow: none;
+  }
+
+  .dropdown .toggle-dropdown {
+    display: block;
+  }
+
+  .dropdown .toggle-dropdown:hover {
+    background-color: transparent;
+  }
+
+  .dropdown .toggle-dropdown::after {
+    content: "\25BE";
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: static;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .dropdown-content a {
+    display: block;
+    line-height: 30px;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -440,5 +504,6 @@ footer {
     font-size: 14px;
     line-height: 30px;
   }
+
 }
 
