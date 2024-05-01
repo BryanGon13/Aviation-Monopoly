@@ -19,6 +19,7 @@ body {
 
 /* Header styling starts here */
 
+/* Base styles */
 header {
   position: fixed;
   background-color: white;
@@ -27,17 +28,17 @@ header {
   z-index: 1;
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
   padding: 15px;
 }
 
-.navbar{
+.navbar {
   width: 100%;
   height: 70px;
   max-width: 1200px;
@@ -46,31 +47,48 @@ a{
   justify-content: space-between;
   align-items: center;
   letter-spacing: 2px;
-  
+  flex-wrap: wrap; /* Allows items to wrap on small screens */
 }
 
-.navbar .logo a{
+.navbar .logo a {
   font-size: 1.4rem;
   font-weight: bold;
 }
 
-.navbar .links{
+.navbar .links {
   display: flex;
   gap: 3rem;
 }
 
-.navbar .toggle-btn{
-  font-size: 30px;
-  cursor: pointer;
-  padding-right: 40px;
+
+
+/* Dropdown styles */
+.dropdown-content {
+  position: absolute;
+  background-color: white;
+  min-width: 150px;
+  z-index: 1;
+  box-shadow: 0 0 3px #808080;
   display: none;
 }
-.navbar a:hover {
-  background-color: #0097a2;
-  color: white;  
+
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.action-btn{
+.dropdown-content a {
+  display: block;
+  line-height: 30px;
+  text-align: center;
+}
+
+/* Additional hover effects */
+.navbar a:hover {
+  background-color: #0097a2;
+  color: white;
+}
+
+.action-btn {
   background-color: #0097a2;
   color: white;
   padding: 15px;
@@ -81,56 +99,14 @@ a{
   font-weight: bold;
   cursor: pointer;
 }
-.action-btn:hover{
+
+.action-btn:hover {
   scale: 1.2;
   transition: 0.5s ease;
 }
-.dropdown:hover .dropdown-content {
-  display: block;
-}
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 150px;
-  z-index: 1;
-  box-shadow: 0 0 3px #808080;
-}
-
-.dropdown-content a {
-  display: block;
-  line-height: 30px;
-  text-align: center;
-}
 
 /* Header styling ends here */
-
-
-
-/* Dropdown Nav styling starts here */
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 150px;
-  z-index: 1;
-  box-shadow: 0 0 3px #808080;
-}
-
-.dropdown-content a {
-  display: block;
-  line-height: 30px;
-  text-align: center;
-  
-}
-
-/* Dropdown Nav styling ends here */
 
 /* Hero page starts here*/
 
@@ -419,9 +395,6 @@ footer {
 /* Media queries for responsivness */
 
 @media screen and (max-width: 480px) {
-  #menu ul{
-    object-fit: contain;
-  }
   .page-title {
     font-size: 12px;
     top: 10px; 
@@ -434,58 +407,40 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
- 
   .social-media a {
     padding: 10px 20px;
   }
   .page-title {
     width: 100%; 
   }
+  .navbar {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .navbar .logo {
+    margin-bottom: 10px; 
+  }
+
   .navbar .links {
-    display: none;
+    flex-direction: row; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 0;
   }
 
-  .navbar .toggle-btn {
-    display: block;
+  .navbar .links a {
+    text-align: center; 
+    padding: 10px 15px; 
+    white-space: nowrap; 
   }
-
-  .dropdown:hover .dropdown-content {
-    display: none;
-  }
-
-  .dropdown-content {
+  .container video{
     position: relative;
-    min-width: unset;
-    box-shadow: none;
+    left: -35px;
   }
-
-  .dropdown .toggle-dropdown {
-    display: block;
-  }
-
-  .dropdown .toggle-dropdown:hover {
-    background-color: transparent;
-  }
-
-  .dropdown .toggle-dropdown::after {
-    content: "\25BE";
-    font-size: 0.8rem;
-    margin-left: 5px;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-    position: static;
-    background-color: transparent;
-    box-shadow: none;
-  }
-
-  .dropdown-content a {
-    display: block;
-    line-height: 30px;
-    text-align: center;
-  }
+ 
 }
+
 
 @media screen and (max-width: 1024px) {
   
