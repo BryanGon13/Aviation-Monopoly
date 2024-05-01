@@ -438,6 +438,10 @@ footer {
     position: relative;
     left: -35px;
   }
+  .hero img{
+    position: relative;
+    top: 70px;
+  }
  
 }
 
