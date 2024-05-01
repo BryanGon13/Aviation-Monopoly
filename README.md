@@ -6,7 +6,7 @@ Aviation Monopoly looks into the origins and significant milestones that have sh
 
 The live link can be found here - [Aviation Monopoly](https://bryangon13.github.io/Aviation-Monopoly/)
 
-![Mind Yoga Am I Responsive Image](docs/readme_images/am-i-responsive.png)
+![Aviation Monopoly Am I Responsive Image](./Documents/ReadMe_Images/Responsive.png)
 
 ## Site Owner Goals 
 
@@ -66,7 +66,7 @@ Wireframes were produced using Balsamiq.
     - A drop shadow was applied to the navigation bar to make sure that it doesn't blend into the other sections of the page upon scrolling.
     - This section allows the user to easily navigate through the site to find content without having to scroll back up to the top of the page or use the browser back button.
 
-![Nav bar image](./Documents/ReadMe_Images/Nav_Bar.png)
+![Nav bar image](./Documents/ReadMe_Images/header.png)
 
 - ### Landing Page Image
 
@@ -94,7 +94,7 @@ Wireframes were produced using Balsamiq.
     - The "Contact Us" section serves as a vital avenue for users to engage with us, fostering open communication and enabling us to address their inquiries or feedback promptly.
     - The "Contact Us" section also provides users with a direct channel to reach out to us for any assistance they may need, ensuring a personalized and responsive experience tailored to their needs.
 
-![Form section image](./Documents/ReadMe_Images/Contact_Us.png)
+![Form section image](./Documents/ReadMe_Images/form.png)
 
 - ### Footer
 
@@ -102,14 +102,14 @@ Wireframes were produced using Balsamiq.
     - The links will open to a new tab to allow easy navigation for the user. 
     - The footer is valuable to the user as it allows them to find and follow us on social media.
 
-![Footer image](./Documents/ReadMe_Images/Footer.png)
+![Footer image](./Documents/ReadMe_Images/footer.png)
 
 ### Features Left to Implement
 
 - Burger button for the mobile nav bar.
 - Update to commercial aircraft fleet and include cargo aircrafts.
 
-### Validator Testing
+## Validator Testing
 
 - #### HTML
 
@@ -140,8 +140,89 @@ Wireframes were produced using Balsamiq.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 - I also used the following websites to test responsiveness:
-    - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
-    - [Am I Responsive](http://ami.responsivedesign.is/?url=https%3A%2F%2Faliokeeffe.github.io%2Fmindyoga%2F)
+    - [Responsinator](http://www.responsinator.com/?url=bryangon13.github.io%2FAviation-Monopoly%2F)
+    - [Am I Responsive](https://ui.dev/amiresponsive?url=https://bryangon13.github.io/Aviation-Monopoly/)
+
+### Friends and Family User Testing
+
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+## Fixed Bugs
+
+### Anchor link scroll with a fixed position header
+
+- The header element contains anchor links to allow the user to navigate to different sections within the website. By default, these will scroll so that the target element is flush with the top of the browser window.
+- When I updated the header to use a fixed top position, the beginning of each section ended up being covered by the header, which wasn’t ideal.
+- To resolve the issue I changed the position from fixed to relative. This way, when the user clicks on a nav link, the browser window scrolls to the top of the corresponding section. 
+
+### Anchor links broken 
+
+- Anchor links (Airbus and Boeing) malfunctioned, failing to redirect to the correct pages upon clicking.
+-  ⁠Difficulty encountered in linking separate pages (Airbus and Boeing) to the respective a tags due to limitation of linking only elements within the same page.
+- ⁠Successfully implemented linking between index.html and distinct web pages, enabling navigation functionality; resolved by duplicating and integrating the header across all pages for consistency.
+
+## Technologies Used
+
+### Languages
+- HTML5
+- CSS
+
+### Frameworks - Libraries - Programs Used
+- [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
+- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
+- [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
+- [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
+- [GitHub](https://github.com/) - Used for version control and hosting.
+- [Google Fonts](https://fonts.google.com/) - Used to import and alter fonts on the page.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [W3C](https://www.w3.org/) - Used for HTML & CSS Validation.
+
+## Deployment
+
+The project was deployed using GitHub pages. The steps to deploy using GitHub pages are:
+
+1. Go to the repository on GitHub.com
+2. Select 'Settings' near the top of the page.
+3. Select 'Pages' from the menu bar on the left of the page.
+4. Under 'Source' select the 'Branch' dropdown menu and select the main branch.
+5. Once selected, click the 'Save'.
+6. Deployment should be confirmed by a message on a green background saying "Your site is published at" followed by the web address.
+
+
+The live link can be found here - [Aviation Monopoly](https://bryangon13.github.io/Aviation-Monopoly/)
+
+
+## Credits
+
+### Content
+All educational yoga content was sourced from the below websites:
+- [Airbus](https://www.airbus.com)
+- [Boeing](https://www.boeing.com/)
+- [Aerocivil](https://www.aerocivil.gov.co/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Competition_between_Airbus_and_Boeing)
+- [Chat GPT](https://chat.openai.com/)
+
+### Media
+All images and videos were sourced from the below websites:
+- [Airbus](https://www.airbus.com)
+  
+- [Boeing](https://www.boeing.com/)
+  
+- [Canva](https://www.canva.com/)
+
+
+### Resources Used
+
+- [Youtube - Kevin Powell](https://www.youtube.com/@KevinPowell)
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+
+
+## Acknowledgments
+My mentor Antonio for his support and advice.
+
+The Code Institute slack community for their quick responses and very helpful feedback!
 
 
 
