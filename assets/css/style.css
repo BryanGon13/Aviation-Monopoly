@@ -410,14 +410,13 @@ footer {
   .social-media a {
     padding: 10px 20px;
   }
-  .page-title {
-    width: 100%; 
-  }
   .navbar {
     flex-direction: column;
     align-items: center; 
   }
-
+  .navbar a {
+    padding: 20px;
+  }
   .navbar .logo {
     margin-bottom: 10px; 
   }
@@ -433,21 +432,14 @@ footer {
     text-align: center; 
     padding: 10px 15px; 
     white-space: nowrap; 
+    margin-left: -20px;
   }
-  .container video{
-    position: relative;
-    left: -35px;
-  }
-  .hero img{
-    position: relative;
-    top: 70px;
-  }
+
  
 }
 
 
 @media screen and (max-width: 1024px) {
-  
   .column-33 {
     width: 100%;
     text-align: center;
@@ -467,6 +459,24 @@ footer {
     font-size: 14px;
     line-height: 30px;
   }
-
+  .container video{
+    position: relative;
+    width: 325px;
+    left: -65px;
+  }
+  .hero img{
+    position: relative;
+    top: 70px;
+  }
+  .page-title{
+    top: 80px;
+  }
+  .page-title h1{
+    font-size: 25px;
+  }
+  .navbar .logo a {
+    font-size: 20px;
+    margin-left: -50px;
+  }
 }
 
