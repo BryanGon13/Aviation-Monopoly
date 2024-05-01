@@ -436,7 +436,7 @@ footer {
 @media screen and (max-width: 768px) {
   .container video{
     position: relative;
-    left: -33px;
+    left: -60px;
   }
   .social-media a {
     padding: 10px 20px;
