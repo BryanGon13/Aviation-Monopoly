@@ -102,7 +102,7 @@ Wireframes were produced using Balsamiq.
     - The links will open to a new tab to allow easy navigation for the user. 
     - The footer is valuable to the user as it allows them to find and follow us on social media.
 
-![Footer image](./Documents/ReadMe_Images/footer.png)
+![Footer image](./Documents/ReadMe_Images/Footer.png)
 
 ### Features Left to Implement
 
