@@ -89,7 +89,7 @@ a {
 }
 
 .action-btn {
-  background-color: #0097a2;
+  background-color: #00474d;
   color: white;
   padding: 15px;
   border: none;
@@ -100,6 +100,7 @@ a {
 }
 
 .action-btn:hover {
+  background-color: #0097a2;
   scale: 1.2;
   transition: 0.5s ease;
 }
