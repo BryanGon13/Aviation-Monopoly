@@ -47,13 +47,13 @@ Wireframes were produced using Balsamiq.
 
  <summary>Desktop Wireframe</summary>
 
-![Desktop Wireframe](docs/wireframes/desktopwireframe.png)
+![Desktop Wireframe](./Documents/ReadMe_Images/Aviation-Monopoly-Web-Wireframe.png)
  </details>
 
  <details>
     <summary>Mobile Wireframe</summary>
 
-![Mobile Wireframe](docs/wireframes/mobilewireframe.png)
+![Mobile Wireframe](./Documents/ReadMe_Images/Aviation-Monopoly-Phone-Wireframe.png)
  </details>
 
 
