@@ -345,6 +345,7 @@ footer {
 }
 
 .footer-container {
+  position: relative;
   width: 100%;
   padding: 20px 30px;
 }
@@ -457,6 +458,7 @@ footer {
   .stats{
     font-size: 14px;
     line-height: 30px;
+    width: auto;
   }
   .container video{
     position: relative;
@@ -476,6 +478,9 @@ footer {
   .navbar .logo a {
     font-size: 20px;
     margin-left: -10px;
+  }
+  .a220-info{
+    width:auto;
   }
 }
 
