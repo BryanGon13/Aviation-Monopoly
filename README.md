@@ -194,7 +194,7 @@ The live link can be found here - [Aviation Monopoly](https://bryangon13.github.
 ## Credits
 
 ### Content
-All educational yoga content was sourced from the below websites:
+All content was sourced from the below websites:
 - [Airbus](https://www.airbus.com)
 - [Boeing](https://www.boeing.com/)
 - [Aerocivil](https://www.aerocivil.gov.co/)
