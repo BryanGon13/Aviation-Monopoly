@@ -123,7 +123,7 @@ Wireframes were produced using Balsamiq.
 
 - #### Accessibility 
 
-    - The site achieved a Lighthouse accessibility score of 93% which confirms that the colours and fonts chosen are easy to read and accessible.
+    - The site achieved a Lighthouse accessibility score of 100% which confirms that the colours and fonts chosen are easy to read and accessible.
 
 ![Lighthouse score](./Documents/ReadMe_Images/Accessibility.png)
 
