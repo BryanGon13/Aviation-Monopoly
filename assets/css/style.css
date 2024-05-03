@@ -202,14 +202,14 @@ a {
 }
 .airbus-title {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
 .stats {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
@@ -391,6 +391,29 @@ footer {
 
 /* Media queries for responsivness */
 
+@media screen and (max-width:375px) {
+ 
+
+  .navbar .logo {
+    margin-bottom: 10px; 
+  }
+
+  .navbar .links {
+    flex-direction: row; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+
+  }
+
+  .navbar .links a {
+    text-align: center; 
+    white-space: nowrap; 
+  }
+  .action-btn{
+    width: 100px;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .page-title {
     font-size: 12px;
@@ -427,7 +450,7 @@ footer {
 
   .navbar .links a {
     text-align: center; 
-    padding: 10px 15px; 
+    padding: 10px 5px; 
     white-space: nowrap; 
   }
 
