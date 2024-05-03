@@ -140,7 +140,6 @@ Wireframes were produced using Balsamiq.
 
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 8, iPhoneX and iPad to ensure responsiveness on various screen sizes. The website performed as intended. The responsive design was also checked using Chrome developer tools across multiple devices with structural integrity holding for the various sizes.
 - I also used the following websites to test responsiveness:
-    - [Responsinator](http://www.responsinator.com/?url=bryangon13.github.io%2FAviation-Monopoly%2F)
     - [Am I Responsive](https://ui.dev/amiresponsive?url=https://bryangon13.github.io/Aviation-Monopoly/)
 
 ### Friends and Family User Testing
@@ -169,7 +168,6 @@ Friends and family members were asked to review the site and documentation to po
 
 ### Frameworks - Libraries - Programs Used
 - [Am I Responsive](http://ami.responsivedesign.is/) - Used to verify responsiveness of website on different devices.
-- [Responsinator](http://www.responsinator.com/) - Used to verify responsiveness of website on different devices.
 - [Balsamiq](https://balsamiq.com/) - Used to generate Wireframe images.
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used for overall development and tweaking, including testing responsiveness and performance.
 - [Font Awesome](https://fontawesome.com/) - Used for Social Media icons in footer.
@@ -200,8 +198,6 @@ All educational yoga content was sourced from the below websites:
 - [Airbus](https://www.airbus.com)
 - [Boeing](https://www.boeing.com/)
 - [Aerocivil](https://www.aerocivil.gov.co/)
-- [Wikipedia](https://en.wikipedia.org/wiki/Competition_between_Airbus_and_Boeing)
-- [Chat GPT](https://chat.openai.com/)
 
 ### Media
 All images and videos were sourced from the below websites:
@@ -222,7 +218,7 @@ All images and videos were sourced from the below websites:
 ## Acknowledgments
 My mentor Antonio for his support and advice.
 
-The Code Institute slack community for their quick responses and very helpful feedback!
+The Code Institute slack community for their quick responses and very helpful feedback.
 
 
 
