@@ -392,7 +392,14 @@ footer {
 /* Media queries for responsivness */
 
 @media screen and (max-width:375px) {
- 
+  
+  .stats ul{
+    font-size: 13px;
+  }
+
+  .airbus-title{
+    font-size: 18px;
+  }
 
   .navbar .logo {
     margin-bottom: 10px; 
